@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="autolatch"
+version="${file.jarVersion}"
+displayName="AutoLatch"
+logoFile="autolatch_logo.png"
+authors="Worldloom by GOGLEO (GitHub: lefoxxy)"
+description='''
+Quiet server-side door auto-closing with vanilla sound, redstone respect, and configurable door rules.
+'''
+
+[[dependencies.autolatch]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.20,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.autolatch]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
